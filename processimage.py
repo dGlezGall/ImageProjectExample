@@ -60,7 +60,7 @@ def image_getter(file_path):
 
     commons.abort_to_errors(width, height, img_file_name)
 
-    img_instance = commons.get_instance(str(IMAGE_REPOSITORY + folder_path + "/"), str(img_file_name))
+    img_instance = commons.get_instance(str(IMAGE_REPOSITORY + folder_path), str(img_file_name))
 
     final_img_name = commons.get_new_img_name(img_file_name, img_instance.get_file_ext(), width, height)
     img_instance.set_img_name(final_img_name)
