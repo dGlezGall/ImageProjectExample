@@ -9,7 +9,7 @@ import os
 #####################
 # Server properties #
 #####################
-SERVER_URL = "/processator/"
+SERVER_URL = "/processimg/"
 
 
 ######################
