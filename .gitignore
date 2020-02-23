@@ -1,0 +1,21 @@
+# @Author            : Dario Gonzalez
+# @Date              : 2020-02-23
+# @Last Modified by  : Dario Gonzalez
+# @Last Modified time: 2020-02-23
+
+# IDEs
+/.vscode/
+.project
+.pydevproject
+/.settings/
+.metadata/
+
+# Compilers
+*.pyc
+
+# Project specific
+properties/properties.py
+imageexamples/
+logs/
+*.log
+tests/
